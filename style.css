@@ -1,0 +1,51 @@
+.card{
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 2px 4px 8px black;
+   
+}
+
+img{
+    
+    width: 100%;
+    border-radius: 25px;
+}
+
+h2{
+    color: orange;
+}
+
+h1>span{
+    color: goldenrod;
+}
+
+#pet{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h4 {
+    text-align: left;
+    color: #3c787e;
+  }
+
+  .card:hover{
+    box-shadow: 0px 8px 16px black;
+  }
+
+  @media(max-width:375px){
+    #pet{
+        flex-wrap: wrap;
+    }
+  }
